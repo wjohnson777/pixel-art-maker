@@ -3,7 +3,7 @@
 
 const tbl = document.getElementById("pixel_canvas");
 
-document.getElementById("sub").addEventListener("click", function makeGrid() {
+document.getElementById("square").addEventListener("click", function makeGrid() {
   
   //clear previously created grid before building new grid
 
