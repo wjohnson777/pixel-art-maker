@@ -1,15 +1,15 @@
 
-//clears previous grid and builds new grid based on inputs
+//clears previous grid and builds new grid
 
 const tbl = document.getElementById("pixel_canvas");
 
 document.getElementById("square").addEventListener("click", function makeGrid() {
   
-  //clear previously created grid before building new grid
+  //clear previously created grid
 
   tbl.innerHTML = "";
 
-  //select size input and set to width and height variables
+  //select grid size
 
   const width = document.getElementById("input_width").value;
 
